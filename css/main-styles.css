@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    min-height: 100vh; 
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+div#gnltx-main-head {
+    background-image: url('../assets/Home photo1.png') !important;
+    top: 80px;
+    left: 0px;
+    width: 100%;
+    height: 470px;
+    background-size: 100%;
+    background-repeat: no-repeat !important;
+}
+
+div#gnltx-main-grd {
+    background-image: url('../assets/Home photo2.png') !important;
+    top: 80px;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat !important;
+    left: 0px;
+    height: 470px !important;
+}
+
+div#gnltx-head {
+    background-image: url('../assets/Genelytics.png') !important;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    background-size: 100%;
+    top: 80px !important;
+    left: 0px !important;
+    height: 315px !important;
+}
+
+div#genebank-head {
+    background-image: url('../assets/genebank photo.png') !important;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    background-size: 100%;
+    top: 80px !important;
+    left: 0px !important;
+    height: 315px !important;
+}
+
+div#gnltx-head-policy{
+    background-image: url('../assets/Policy.png') !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    background-size: 100% !important;
+    top: 90px !important;
+    left: 0px !important;
+    height: 315px !important;
+}
+
+div#gnltx-head-contact-us{
+    background-image: url('../assets/Contact photo.png') !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    background-size: 100% !important;
+    top: 80px !important;
+    left: 0px !important;
+    height: 315px !important;
+}
+
+div#gnltx-head-about-us{
+    background-image: url('../assets/GRD.png') !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    background-size: 100% !important;
+    top: 90px !important;
+    left: 0px !important;
+    height: 315px !important;
+}
+
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    background-color: #555;
+    /* overflow: auto; */
+}
+
+/* Navigation links */
+.navbar a {
+    float: left;
+    padding: 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    width: 100%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center;
+    letter-spacing: 0px;
+}
+
+a.nav-link{
+    font-size: 14px !important;
+}
+
+nav ul {
+    margin: 0 !important;
+  }
+
+/* Footer links */
+.footer a {
+    padding: 20px;
+    color: lightgreen;
+    text-decoration: none;
+    font-size: 14px;
+    width: 100%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.footer a:hover{
+    /* text-decoration: none; */
+    transform: scale(1.5) perspective(1px);
+    /* color: rgb(217, 225, 217); */
+}
+
+#test-table{
+    margin-top: 50px;
+}
+
+#img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 40px; */
+    width: 100%;
+    height: 350px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.btn-center-text{
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+    /* line-height: 50px; */
+    text-align: center;
+}
+
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.dot-green {
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.dot-white-gray {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid gray;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    color: gray;
+}
+
+.dot-white-green {
+    height: 40px;
+    width: 40px;
+    /* background-color: lightgray; */
+    border-radius: 50%;
+    border: 1px solid green;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    color: green;
+}
+
+.f-60{
+    font-size: 60px;
+}
+
+.f-40{
+    font-size: 40px;
+}
+
+.f-39{
+    font-size: 39px;
+}
+
+.f-38{
+    font-size: 38px;
+}
+
+.f-37{
+    font-size: 37px;
+}
+
+.f-35{
+    font-size: 35px;
+}
+
+.f-30{
+    font-size: 30px;
+}
+
+.f-24{
+    font-size: 24px;
+}
+
+.f-20{
+    font-size: 20px;
+}
+
+.f-18{
+    font-size: 18px;
+}
+
+.f-16{
+    font-size: 16px;
+}
+
+.f-14{
+    font-size: 14px;
+}
+
+/* HEADER */
+
+#gnltx-main-head{
+    top: 80px !important;
+    left: 0px !important;
+    height: 470px !important;
+}
